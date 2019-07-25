@@ -1,27 +1,20 @@
-# Templated package
+# Templated application
 
-Write a small description of the package.
+This application is intended to be used by end users that may not have any developper background.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the package.
+Clone the repository:
 
 ```bash
-pip install templated_package
+>> git clone https://github.com/afaucon/templated_application.git
 ```
 
-Or install the package [from a CVS url](https://pip.pypa.io/en/stable/reference/pip_install/#git).
-
-```bash
-pip install git+https://github.com/afaucon/templated_package.git@v1.0.0
-```
+Or download the source files firectly from the [GitHub repository](https://github.com/afaucon/templated_application.git).
 
 ## Usage
 
-```python
-import templated_package
-
-templated_package.pluralize('word') # returns 'words'
-templated_package.pluralize('goose') # returns 'geese'
-templated_package.singularize('phenomena') # returns 'phenomenon'
+```bash
+>> cd templated_application
+>> python main.py
 ```
